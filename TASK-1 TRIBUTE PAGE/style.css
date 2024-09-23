@@ -1,0 +1,103 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: #000000;
+    min-height: 100vh;
+    border: 10px solid #e8e8ef;
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .top_section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+  }
+  .top_section h1 {
+    margin:10px 0;
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+    
+  }
+  .top_section h4 {
+    font-size: 30px;
+    text-align: end;
+    color:white;
+  }
+  
+  .image_container {
+    border-radius: 5%;
+    overflow: hidden;
+  }
+  
+  .image_container,
+  img {
+    width: 400px;
+    height: 300px;
+  }
+  .about_section {
+    margin-top: 50px;
+    color:white;
+  }
+  .about_section h2 {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color:white;
+  }
+  .about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    color:white;
+  }
+  .childhood_section {
+    margin:50px 0;
+    color:white;
+  }
+  .childhood_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+  }
+  .childhood_section p {
+    margin:20px 0;
+    color:white;
+  
+  }
+  .invention_section {
+    margin: 50px 0;
+  }
+  .invention_section h2 {
+    margin-bottom: 20px;
+    color:white;
+  }
+  .invention_section ul {
+    margin-left: 50px;
+    color:white;
+  }
+  .invention_section li {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color:white;
+  }
+  
+  footer {
+    margin: 50px 0;
+  }
+  footer p {
+    text-align: end;
+    color:white;
+    }
